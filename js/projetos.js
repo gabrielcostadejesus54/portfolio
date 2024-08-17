@@ -42,8 +42,18 @@ let projetos = [
     },
     {
         nome: 'LinkBio Neymar',
-        img: 'cm_life.PNG',
-        site: 'https://gabrielcostadejesus54.github.io/CM-Life/'
+        img: 'bio_neymar.PNG',
+        site: 'https://gabrielcostadejesus54.github.io/LinkBio_NeymarJr/'
+    },
+    {
+        nome: 'Visite Paraty',
+        img: 'paraty.PNG',
+        site: 'https://gabrielcostadejesus54.github.io/visite-paraty/'
+    },
+    {
+        nome: 'Pet Boutique',
+        img: 'pet_boutique.PNG',
+        site: 'https://gabrielcostadejesus54.github.io/Pet-Boutique/'
     }
 
     
