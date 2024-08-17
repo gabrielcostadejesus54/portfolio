@@ -24,6 +24,26 @@ let projetos = [
         nome: 'Trilha de CSS da DIO',
         img: 'css-developer.png',
         site: 'https://gabrielcostadejesus54.github.io/trilha-css-desafio-01/'
+    },
+    {
+        nome: 'Agência de Viagens',
+        img: 'agenciaViagens.PNG',
+        site: 'https://gabrielcostadejesus54.github.io/agencia_de_viagens/'
+    },
+    {
+        nome: 'AluCar',
+        img: 'Alucar.PNG',
+        site: 'https://gabrielcostadejesus54.github.io/AluCar/'
+    },
+    {
+        nome: 'CM Life',
+        img: 'cm_life.PNG',
+        site: 'https://gabrielcostadejesus54.github.io/CM-Life/'
+    },
+    {
+        nome: 'LinkBio Neymar',
+        img: 'cm_life.PNG',
+        site: 'https://gabrielcostadejesus54.github.io/CM-Life/'
     }
 
     
