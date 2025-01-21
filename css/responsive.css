@@ -13,6 +13,7 @@
         top: 70px;
         width: 100%;
         display: none;
+        border-bottom: 1px solid #dddddd;
     }
 
     .menu-mobile i{
@@ -28,7 +29,6 @@
         width: 100%;
         display: block;
         text-align: center;
-        border-bottom: 1px solid #ddd;
         padding: 10px 0;
     }
 }
