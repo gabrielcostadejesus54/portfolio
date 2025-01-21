@@ -16,3 +16,42 @@
 }
 
 /* ********************* */
+
+/* Header */
+
+header{
+    padding: 20px 2%;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2{
+    font-size: 28px;
+    color: #070F18;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #070F18;
+}
+
+.menu-mobile{
+    display: none;
+}
+/* ****** */
+
