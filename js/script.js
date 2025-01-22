@@ -1,3 +1,5 @@
+
+// Funcionalidade Menu
 let menu = $('.menu-mobile i')
 let menuItems = $('.menu-mobile ul')
 
