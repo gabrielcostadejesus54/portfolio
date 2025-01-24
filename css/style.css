@@ -36,6 +36,15 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.329);
 }
 
+.title{
+    margin: 60px 0;
+}
+
+.title h3{
+    font-size: 16px;
+    color: #F75C4E;
+}
+
 /* ********************* */
 
 /* Header */
@@ -136,4 +145,128 @@ header ul li a{
 }
 
 /* ************ */
+/* Portfolio */
+.portfolio{
+    padding: 0 2%;
+}
 
+.portfolio h3{
+    margin-bottom: 10px;
+}
+
+.portfolio .site{
+    max-width: 750px;
+    padding-top: 40%;
+    border-radius: 10px;
+    background-image: url('../img/helpfreela.PNG');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    position: relative;
+    
+}
+
+.portfolio .site:hover .overlay{
+    opacity: 1;
+}
+
+.site .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.363);
+    opacity: 0;
+    transition: 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.overlay a{
+    background-color: #F75C4E;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+
+.overlay a:hover{
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.432);
+    transform: scale(1.05);
+}
+
+.tecnologias{
+    margin-top: 20px;
+    background-color: white;
+    padding: 30px 0;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.tecnologias p{
+    color: #1F7CFF;
+}
+
+.tecnologias .wraper-tec{
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+}
+
+.tecnologias div.wraper-tec i{
+    font-size: 40px;
+}
+
+.tecnologias .wraper-tec span{
+    display: block;
+    font-size: 12px;
+    color: black;
+}
+
+.tecnologias .html{
+    color: #E96228;
+}
+
+.tecnologias .css{
+    color: #0185C4;
+}
+
+.tecnologias .javascript{
+    color: #EFD81D;
+}
+
+.o-mobile{
+    margin-top: 20px;
+    position:static;
+    transition: 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+
+.o-mobile .tecnologias{
+    background-color: #070F18;
+}
+
+.o-mobile .tecnologias .wraper-tec span{
+    color: white;
+}
+
+.o-mobile a{
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+/* ******** */
