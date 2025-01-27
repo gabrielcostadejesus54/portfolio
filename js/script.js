@@ -14,3 +14,10 @@ $(menu).click(function(){
         }
     })
 })
+
+// Mascara contato
+
+let telefone = $('input[name=telefone]')
+
+telefone.mask('(99) 9 9999-9999')
+

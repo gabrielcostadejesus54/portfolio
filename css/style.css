@@ -148,6 +148,7 @@ header ul li a{
 /* Portfolio */
 .portfolio{
     padding: 0 2%;
+    margin: 0 auto;
 }
 
 .portfolio h3{
@@ -155,15 +156,14 @@ header ul li a{
 }
 
 .portfolio .site{
-    max-width: 750px;
-    padding-top: 40%;
+    width: 100%;
+    padding-top: 50%;
     border-radius: 10px;
     background-image: url('../img/helpfreela.PNG');
     background-size: cover;
     background-position: center;
     border: 2px solid black;
-    position: relative;
-    
+    position: relative; 
 }
 
 .portfolio .site:hover .overlay{
@@ -270,3 +270,58 @@ header ul li a{
 }
 
 /* ******** */
+
+/* contato */
+.contato{
+    padding: 100px 2%;
+}
+
+.contato .img-contato{
+    max-width: 635px;
+    width: 100%;
+    background-image: url('../img/img-contato.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    height: 450px;
+}
+
+.contato .formulario{
+    width: 100%;
+}
+
+.contato .formulario p{
+    color: #575455;
+    line-height: 32px;
+}
+
+.contato form{
+    margin-top: 30px;
+}
+
+.contato form input{
+    width: 100%;
+    border-radius: 50px;
+    height: 48px;
+    margin-bottom: 10px;
+    border: 0;
+    background-color: #F5F6FB;
+    color: #575455;
+    padding-left: 20px;
+    outline: 0;
+}
+
+.contato form textarea{
+    width: 100%;
+    border-radius: 20px;
+    height: 140px;
+    margin-bottom: 10px;
+    border: 0;
+    background-color: #F5F6FB;
+    color: #575455;
+    padding-left: 20px;
+    padding-top: 20px;
+    outline: 0;
+    resize: none;
+}
+/* ******* */
